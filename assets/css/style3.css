@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 100px 20PX;
   overflow: hidden;
 }
 
@@ -525,7 +525,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 50px 0;
+  padding: 50px 20px;
   background-image:  url("../img/curse.png") center center no-repeat;
 }
 .about .content h3 {
@@ -577,10 +577,10 @@ section {
 # Added by Denise
 --------------------------------------------------------------*/
 #male{
-  background: background: url("assets/img/man.png");
+  background-image: background: url("assets/img/man.png");
 }
 #female{
-  background: background: url("assets/img/woman.png");
+  background-image: background: url("assets/img/woman.png");
 }
 /*--------------------------------------------------------------
 # Services
@@ -590,6 +590,7 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-image:  url("../img/curse.png") center center no-repeat;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -687,7 +688,39 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+/*--------------------------------------------------------------
+# Denise's Add
+--------------------------------------------------------------*/
+#plotly {
+  margin: auto;
+  border: 0;
+  display: inline;
+}
 
+#VIAF {
+   color: #fff;
+}
+
+#jobs {
+ color: #9fbfde;
+}
+
+#academic {
+   color: #fff;
+}
+
+#personal_rel {
+   color: #9fbfde;
+}
+
+#academic_rel {
+ color: #fff; 
+
+}
+
+#conclusion {
+ color: #9fbfde;
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
