@@ -577,7 +577,10 @@ section {
 # Added by Denise
 --------------------------------------------------------------*/
 #male{
-  background: background: url("../man.png");
+  background: background: url("assets/img/man.png");
+}
+#female{
+  background: background: url("assets/img/woman.png");
 }
 /*--------------------------------------------------------------
 # Services
