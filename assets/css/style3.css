@@ -694,7 +694,7 @@ section {
 #plotly {
   margin: auto;
   border: 0;
-  display: inline;
+  float: left;
 }
 
 #VIAF {
