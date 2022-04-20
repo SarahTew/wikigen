@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #9fbfde;
+  color: #788ea3;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #2c303c;
   text-decoration: none;
 }
 
@@ -553,6 +553,7 @@ section {
 .counts {
   background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
+  color: pink;
   
 }
 .counts .counters span {
@@ -564,9 +565,10 @@ section {
 }
 .counts .counters p {
   padding: 0;
-  margin: 0 0 10px 0;
-  font-size: 15px;
+  margin: 0 0 0 0;
+  font-size: 25px;
   color: rgba(255, 255, 255, 0.8);
+  color: pink;
 }
 
 /*--------------------------------------------------------------
@@ -1410,4 +1412,13 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# added by me: But why doesn't any of it work!!!
+--------------------------------------------------------------*/
+figcaption 
+	text-align:center;
+	size: 24pt;
+	color: pink;
 }
