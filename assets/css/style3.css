@@ -698,35 +698,30 @@ section {
 }
 
 #VIAF {
-   color: #fff;
+  background-color: #fff;
 }
 
 #jobs {
- color: #9fbfde;
+ background-color: #9fbfde;
 }
 
 #academic {
-   color: #fff;
+   background-color: #fff;
 }
 
 #personal_rel {
-   color: #9fbfde;
+  background-color: #9fbfde;
 }
 
 #academic_rel {
- color: #fff; 
+ background-color: #fff; 
 
 }
 
 #conclusion {
- color: #9fbfde;
+ background-color: #9fbfde;
 }
 
-img  {
-  margin: auto;
-  border: 0;
-  display: inline;
-}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
