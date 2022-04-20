@@ -699,27 +699,34 @@ section {
 
 #VIAF {
   background-color: #fff;
+  color:#9fbfde;
 }
 
 #jobs {
  background-color: #9fbfde;
+	color:#fff;
+	
 }
 
 #academic {
    background-color: #fff;
+   color:#9fbfde;
 }
 
 #personal_rel {
   background-color: #9fbfde;
+	color:#fff;
 }
 
 #academic_rel {
  background-color: #fff; 
+ color:#9fbfde;
 
 }
 
 #conclusion {
  background-color: #9fbfde;
+color:#fff;
 }
 
 /*--------------------------------------------------------------
