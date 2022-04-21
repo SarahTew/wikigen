@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style3.css" rel="stylesheet">
+  <link href="assets/css/style2.css" rel="stylesheet">
 
 <!-- Javascript File -->
   <script type="text/javascript" src="assets/js/main.js"></script>
@@ -53,7 +53,7 @@
 	  <li><a class="nav-link scrollto" href="#about">About</a></li>
 	  <li class="dropdown"><a  href="#documentation"><span>Project</span><i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#VIAF"> 1. VIAF</a></li>
+              <li><a href="#VIAF"> 1. Authorities</a></li>
               <li><a href="#jobs"> 2. Jobs</a></li>
 	      <li><a href="#academic"> 3. Academic Informations</a></li>
               <li><a href="#personal_rel"> 4. Personal Relationship</a></li>
@@ -97,9 +97,12 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 <div class="container">
-<p>Wikidata is one of the largest free and open knowledge databases in the world. Launched in 2012, it now contains over 97 million items, over six million of them people.
+<h3>Wikigen is a data visualization project that analyzes Wikidata's description of art historians — <b>and how how those descriptions vary by gender</b>.</h3>
 
-This project investigates how Wikidata describes art historians and how those descriptions differ across gender. This project serves as a case study in how our descriptions of <b>history create history</b>.</p>
+<p>Wikidata is one of the largest free and open knowledge databases in the world. Launched in 2012, it now contains over 97 million items, over six million of them people. It appear across the internet—in Wikipedia info boxes, Google About panels, and is the first source of biographical information for many users.</p>
+
+<p>While data is good, and open, linked data is better, data in context is best. That's where Wikigen comes in.</p> 
+<h4>Wikigen investigates how Wikidata describes art historians and how our <b>descriptions of history create history</h4></p>
        </div>
 
 <div class="container" data-aos="fade-up">
@@ -107,13 +110,10 @@ This project investigates how Wikidata describes art historians and how those de
           		<h2>Art historians in Wikidata</h2>	
 	</div>
 
-<div class="row">
-        
+       
 <div class="container">
-	
-<p> The first step in our inquiry is to quantify the number of Art Historian in Wikidata and categorize it by sex to see if man and women working in the same workfield are dercribe equally.</p>
- 
-<div class="row counters" class="counts" class="counts2">
+
+<div class="row" class="row counters" class="counts" class="counts2">
 
           <div class="col-lg-3 col-6 text-center" id="male">
             <span data-purecounter-start="0" data-purecounter-end="11762" data-purecounter-duration="1" class="purecounter"></span>
@@ -135,18 +135,12 @@ This project investigates how Wikidata describes art historians and how those de
             <p>Art historians with no declared gender</p>
           </div>
 
-        </div>     
-		
-	<ul>
-              <li><i class="bi bi-check-circle"></i> On Wikidata there are 17754 art historians.</li>
-              <li><i class="bi bi-check-circle"></i> 11762 are male. That is the 66.25% of the total.</li>
-              <li><i class="bi bi-check-circle"></i> 5882 are female. That is the 33.13% of the total.</li>
-	      <li><i class="bi bi-check-circle"></i> 2 are non-binary. That is the 0.01% of the total.</li>
-	      <li><i class="bi bi-check-circle"></i> 108 are not defined by any gender. That is the 0.61% of the total.</li>
-	      <li><i class="bi bi-check-circle"></i> <a href="https://www.zippia.com/art-history-professor-jobs/demographics/">60% of art historians in the US are women</a>.</li>
-            </ul>
+        </div> 
+<div class="row">		
+	<div class="col">	
 	
-	<div class="row">
+	
+	<div class="col">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="150">
             <iframe width="650" height="700" scrollable="no" allowfullscreen="" frameborder="0"
 		src="general_overview.html" id="pieGender"></iframe>
@@ -154,6 +148,7 @@ This project investigates how Wikidata describes art historians and how those de
           </div>
       </div>
   </div>   
+</div>
 </div>
   
     </section><!-- End About Section -->
@@ -182,8 +177,10 @@ This project investigates how Wikidata describes art historians and how those de
               How detailed is the portrait Wikidata paints?
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Wikidata describes the average male art historian in 102 properties but the average female art historian in 72.</li>
+              <div class="row>
+			  <li><i class="bi bi-check-circle"></i> Wikidata describes the average male art historian in 102 properties but the average female art historian in 72.</li>
               <li><i class="bi bi-check-circle"></i> Female art historians are described with 30% fewer properties than male art historians.</li>
+			  <li><i class="bi bi-check-circle"></i> Fewer properties means fewer pixels and a blurrier portrait of the historian.</li>
             </ul>
           </div>
         </div>
@@ -194,16 +191,11 @@ This project investigates how Wikidata describes art historians and how those de
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
             <figure>
 			<img src="assets/img/animation6.gif" class="img-fluid" alt="">
-			<figcaption>
-			<p>102</p>
-			<p>Average number of properties per male art historian</p>
-			</figcaption>
 			</figure>
           </div>
 		   <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
             <figure>
 			<img src="assets/img/animation5.gif" class="img-fluid" alt="">
-			<figcaption>72: Average number of properties per female art historian</figcaption>
 			</figure>
 			
           </div>
@@ -217,18 +209,22 @@ This project investigates how Wikidata describes art historians and how those de
     <section id="VIAF" class="services">
       <div class="container" data-aos="fade-up">
 	    <div class="section-title">
-          		<h2>VIAF Data</h2>	
+          		<h2>Authority Linking</h2>
+					<p class="fst-italic">
+              How does Wikidata connect art historians to other representations of themselves?
+            </p>
 	<div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
             <img src="assets/img/viafid.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Authority Linking</h3>
+            <h3>VIAF</h3>
             <p class="fst-italic">
-              How does Wikidata link art historians to VIAF?
+			VIAF combines multiple name authorities from 60 institutions into a single id.</p>
+            <p>How many art historians does Wikidata link to a VIAF?
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> VIAF is the most popular external ID</li>
+              <li><i class="bi bi-check-circle"></i> VIAF is the most popular external ID.</li>
               <li><i class="bi bi-check-circle"></i> 94% of male art historians have a VIAF declaration.</li>
               <li><i class="bi bi-check-circle"></i> 88% of female art historians have a VIAF declaration.</li>
             </ul>
@@ -247,13 +243,16 @@ This project investigates how Wikidata describes art historians and how those de
 			<img src="assets/img/auth_m.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Authority Linking</h3>
+            <h3>All Authority Linking</h3>
             <p class="fst-italic">
-              How does Wikidata link art historians to other external authorities?
+				There's more to authorities than just VIAF.
+				</p>
+				<p>How many total external authorities does Wikidata declare?
             </p>
             <ul>
               <li><i class="bi bi-check-circle"></i> The average female art historian is linked to 9 external authorities.</li>
               <li><i class="bi bi-check-circle"></i> The average male art historian is linked to 13 external authorities.</li>
+			  <li><i class="bi bi-check-circle"></i> Female art historians are less linked to other authoritative representations of themselves.</li>
             </ul>
           </div>
         </div>
@@ -265,19 +264,18 @@ This project investigates how Wikidata describes art historians and how those de
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Job Data</h2>
+          <h2>Professional Data</h2>
 		  <p class="fst-italic">
-              Let's focus on work-related properties present on Wikidata art historian's pages:
+              <p> Art history is a multidiciplinary field. Many art historians have multiple jobs declared in Wikidata and on their Wikipedia page.</p>
+			  <p>How does Wikidata describe art historians' jobs and career fields?</p>
             </p>
-		<p> There are <b>11081</b> jobs related to female art historians </p>
-		<p> There are <b>27562 </b> jobs relates to male art historians</p>
-        
-		<p> As art history is a multidiciplinary field a single art historian probably has more than one job listed on his/her Wikipedia page.</p>
-		<p> On avarage man art historians have <b>2.34</b> job listed on their Wikideta page while female art historians have <b>1.88</b> job listed </p>
+		<li> There are <b>11081</b> jobs related to female art historians </li> <!--thought: Do you want to use the counters again for these? Or just the bullets-->
+		<li> There are <b>27562 </b> jobs relates to male art historians</li>
+		<li> On avarage male art historians have <b>2.34</b> jobs listed on their Wikidata page while female art historians have <b>1.88</b> jobs listed </li>
 	      </div>
 
         <div class="row">
-		<p class="fst-italic"> But what are the most frequent jobs listed on both female and male art historian's pages? </p>
+		<h4>But what are the most frequent jobs female and male art historians in Wikidata?</h4>
             <div class="image col-lg-6 order-1 order-lg-2 " data-aos="fade-righ" data-aos-delay="100">
              <iframe id="plotly" width="650" height="800" scrollable="no" allowfullscreen="" frameborder="0" src="male_jobs.html" id="BarMaleJobs"></iframe>
           </div>
@@ -299,7 +297,9 @@ This project investigates how Wikidata describes art historians and how those de
 		  <p class="fst-italic">
               How does Wikidata describe art historian's jobs and education?
             </p>
-          <p>It is clear that both man and women art historian most frequent jobs gravitate around the academic universe. Additionaly in the female art historian's job list we can see some other taching-related jobs, namely: teacher, professor, academic and researcher. So in this section we want to take a closer look at how many properties related to education are present in the Wikidata male and female art historian pages.</p>
+          <p>In the last graph we saw that the most frequent jobs for art historians of any gender were in academia, especially teacher, professor, academic and researcher.</p>
+		<p>	Let's take a closer look at how many educational declarations Wikidata has for art historians.</p>
+		<!---I think we should some kind of concluding takeaway here but i'm not really sure what this graph is showing. So whatever is the takeaway from this viz should go here-->
 
 </p>
         </div>
@@ -320,7 +320,7 @@ This project investigates how Wikidata describes art historians and how those de
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="150">
-    
+				<img src="assets/img/pers_rel.png" class="img-fluid" alt="">
 
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
@@ -370,16 +370,18 @@ This project investigates how Wikidata describes art historians and how those de
         <div class="row">
            
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/prof_rels.png" class="img-fluid" alt="">
+            <img src="assets/img/prof_rel.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>Professional Relationships</h3>
             <p class="fst-italic">
-              How does Wikidata describe art historians' professional relationships?
+              How often does Wikidata describe art historians' professional relationships?
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> 13% of male art historians have at least one professional relationship declared.</li>
-              <li><i class="bi bi-check-circle"></i> 10 percent of female art historians have at least one professional relationship declared.</li>
+			<li><i class="bi bi-check-circle"></i> Professional relationships are less often declared than personal relationships for both genders but the gap is larger for female art historians.</li>
+             <li><i class="bi bi-check-circle"></i> Compared to personal relationships, professional relationships are 47% less likely to be declared for men and 65% less likely for women.</li> 
+			 <li><i class="bi bi-check-circle"></i> 7% of male art historians have at least one professional relationship declared.</li>
+			  <li><i class="bi bi-check-circle"></i> 3.5% percent of female art historians have at least one professional relationship declared.</li>            
             </ul>
           </div>
         </div>
@@ -394,14 +396,13 @@ This project investigates how Wikidata describes art historians and how those de
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>Professional Relationships</h3>
             <p class="fst-italic">
-              What does Wikidata say about art historians' professional relationships?
+              How does Wikidata describe art historians' professional relationships?
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Male art historian's professional relationships are more likely to be declared than female art historian's.</li>
-			  <li><i class="bi bi-check-circle"></i> Doctoral advisors and teachers (property: student of) are more likely to be declared than students.</li>
-              <li><i class="bi bi-check-circle"></i> The most common professional relationship property for male art historians was student of.</li>
-			  <li><i class="bi bi-check-circle"></i> The most common professional relationship property for female art historians was doctoral advisor.</li>
-			  <li><i class="bi bi-check-circle"></i> 49% of female art historians have a doctoral advisor declared while only 20% of male art historians do.</li>
+              <li><i class="bi bi-check-circle"></i> Doctoral advisors and teachers (property: student of) are more likely to be declared than student relationships.</li>
+			  <li><i class="bi bi-check-circle"></i> <b>Doctoral advisors are an anomaly</b>:49% of female art historians have a doctoral advisor vs 20% of male art historians.</li>
+			  <li><i class="bi bi-check-circle"></i> The percentage for 'student of' (aka listing their teacher) is roughly equal between men and woman but the gap between doctoral advisor is 29 percentage points.</li>
+			  
             </ul>
           </div>
         </div>
@@ -411,8 +412,7 @@ This project investigates how Wikidata describes art historians and how those de
 
     <!-- ======= Conclusion Section ======= -->
     <section id="conclusion" class="services">
- 
-      </div>
+  
     </section><!-- End Conclusion Section -->
 
     <!-- ======= Documentation Section ======= -->
@@ -431,37 +431,27 @@ This project investigates how Wikidata describes art historians and how those de
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div class="section-title"><!-- couldn't get this to appear in the other section. idk why....-->
+          <h2>So what does this all mean?</h2>
+          <p>A person's Wikidata is a portrait of them. Like a painted portrait, the hand of the artist (Wikidata contributers), the palette they select (the properties they employ), and each individual brushstroke (each declaration), together create a likeness, not a mirror.	</p>	  
+		  <p>Wikidata paints the average male and female art historians in different ways. Understanding that contribution to the portrait helps use better understand the person it depicts.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
-            </div>
-          </div>
+        <div class="row"><!--not sure why these gifs are smaller than the first two, ideally all of them would be this size-->
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>contact@example.com</p>
-            </div>
-          </div>
+			<img src="assets/img/reverseman.gif" class="img-fluid" alt="">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
-            </div>
           </div>
+		   <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
 
-	      </div>
+			<img src="assets/img/reversewoman.gif" class="img-fluid" alt="">
+
+			
+          </div>
+         
+        </div>
+      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
