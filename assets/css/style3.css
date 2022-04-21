@@ -15,13 +15,17 @@ body {
 }
 
 a {
-  color: #788ea3;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
   color: #2c303c;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -573,15 +577,7 @@ section {
   color: rgba(255, 255, 255, 0.8);
   color: pink;
 }
-/*--------------------------------------------------------------
-# Added by Denise
---------------------------------------------------------------*/
-#male{
-  background-image: background: url("assets/img/man.png");
-}
-#female{
-  background-image: background: url("assets/img/woman.png");
-}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -705,8 +701,8 @@ section {
   color:#9fbfde;
 }
 #granularity{
-  background-color: #fff;
-  color:#9fbfde;
+   background-color: #9fbfde;
+	color:#fff;
 }
 #VIAF {
   background-color: #fff;
@@ -740,6 +736,11 @@ section {
 color:#fff;
 }
 
+#team {
+ background-color: #fff; 
+ color:#9fbfde;
+
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
