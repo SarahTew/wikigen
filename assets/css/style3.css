@@ -706,8 +706,8 @@ section {
   color:#9fbfde;
 }
 #granularity{
-   background-color: #9fbfde;
-	color:#fff;
+   background-color: #fff;
+	color:#9fbfde ;
 }
 #VIAF {
   background-color: #fff;
@@ -742,8 +742,8 @@ color:#fff;
 }
 
 #team {
- background-color: #fff; 
- color:#9fbfde;
+ background-color: #9fbfde; 
+ color:#fff;
 
 }
 /*--------------------------------------------------------------
@@ -987,8 +987,8 @@ color:#fff;
 # Footer
 --------------------------------------------------------------*/
 #footer {
- background-color: #9fbfde;
-color:#fff;
+ background-color: #fff;
+color:#9fbfde;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
