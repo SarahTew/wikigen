@@ -692,11 +692,22 @@ section {
 # Denise's Add
 --------------------------------------------------------------*/
 #about{
- background-color: #9fbfde;
-	color:#fff;
-	
+  background-color: #fff;
+  color:#9fbfde;
 }
 
+#overview{
+ background-color: #9fbfde;
+	color:#fff;
+}
+#inter{
+  background-color: #fff;
+  color:#9fbfde;
+}
+#granularity{
+  background-color: #fff;
+  color:#9fbfde;
+}
 #VIAF {
   background-color: #fff;
   color:#9fbfde;
