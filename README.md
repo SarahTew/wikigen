@@ -5,6 +5,8 @@ License of original Wikidata: [CC0](https://creativecommons.org/share-your-work/
 
 License of Wikigen data: [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
+Image rights remain with holders.
+
 Binder: https://mybinder.org/v2/gh/sarahtew/wikigen/HEAD
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarahtew/wikigen/HEAD)
 
