@@ -1,5 +1,5 @@
 # wikigen
-Final project for DHDK Electronic Publishing and Digital Storytelling by Denise Biasio and Sarah Tew
+Final project by Denise Biasio and Sarah Tew for Electronic Publishing and Digital Storytelling in the Digital Humanities and Digital Knowledge LM program, University of Bologna.
 
 License of original Wikidata: [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
