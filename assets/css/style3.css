@@ -687,6 +687,23 @@ section {
 /*--------------------------------------------------------------
 # Denise's Add
 --------------------------------------------------------------*/
+.hero__scroll {
+  position: absolute;
+  bottom: 60px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding-bottom: 40px;
+  left: 0;
+  right: 0;
+  text-transform: uppercase; }
+  .hero__scroll .chevron {
+    margin-top: 20px;
+    display: block;
+    -webkit-animation: pulse 2s infinite;
+            animation: pulse 2s infinite;
+    color: #FFF; }
 #AvarageJobs{
   display: block;
 }
